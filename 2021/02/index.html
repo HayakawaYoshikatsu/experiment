@@ -98,13 +98,38 @@ h3:after, .subSection-title:after {
 	.prBlock .prBlock_image {
     position: relative;
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 0%;
     text-indent: -9999px;
 	}
+
+/*  Toplogoの設定*/
+.navbar-brand img {
+	max-height: 400px;
+/* 	max-width: 100%; */
+/* 	height:300px; */
+	width:100%;
+}
+
+
+/*  test*/
+.gMenu_outer{
+	width:100%;
+/* 	text-align:center; */
+}
+,gMenu_name{
+	text-align:center;
+}
+@media (min-width: 1100px)
+.gMenu {
+/*     right: 0; */
+/*     margin: 0; */
+/*     float: left; */
+	display: inline-flex;
+}
 
 /*
 
@@ -126,6 +151,11 @@ h3:after, .subSection-title:after {
 .container{
 		padding-top:100px;
 }
+
+.navbar-brand img {
+	max-height: 200px;
+	max-width: 190%;
+}
 */</style>
 		
 </head>
@@ -137,7 +167,7 @@ h3:after, .subSection-title:after {
 		<div class="navbar-header">
 						<p class="navbar-brand siteHeader_logo">
 			<a href="./../../index.html">
-				<span>Yuki-Toge&#039;s Web site</span>
+				<span><img src="./../../wp-content/uploads/2021/03/Top-font.png" alt="Yuki-Toge&#039;s Web site"></span>
 			</a>
 			</p>
 								</div>
